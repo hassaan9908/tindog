@@ -1,0 +1,130 @@
+.tindog{
+    font-size: 30px;
+    
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    margin-top: 50px;
+}
+h1 {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+    margin-top: 40px;
+    
+    
+}
+h2{
+    font-family: "Montserrat-Bold",sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.top-icon{
+    margin-top: 20px;
+}
+.container-fluid {
+    padding: 3% 12% 7%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3 {
+    font-family: "Montserrat-Bold", sans-serif;
+}
+p {
+    color: #8f8f8f;
+}
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 4% 18%;
+    color: #fff;
+}
+.testimonial-image{
+    margin: 10%;
+    width: 15%;
+    border-radius: 100%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 0.5%;
+    margin-bottom: 150px;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+   margin-bottom: 50px;
+    text-align: center;
+
+}
+.pricing-colomn{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+.cta-heading{
+    font-family: "Montserrat-Black", sans-serif;
+    
+}
+#footer{
+    padding: 4% 8%;
+    text-align: center;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.social{
+    margin-left: 10px;
+
+}
+
+
+@media (max-width: 1010px){
+    #title{
+        text-align: center;
+
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+
+    }
+}
